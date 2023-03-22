@@ -45,8 +45,8 @@ img{
  margin: 0 auto;
 }
 section{
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 /**---------HEADER-----*/
 .header:{
@@ -182,6 +182,8 @@ span.ingredient{
     color: var(--color-grey);
   }
   .about-list {
+    display: flex;
+    gap: 24px;
   }
   .about-item {
   }
@@ -213,6 +215,7 @@ span.ingredient{
   }
   .what-list {
     display: flex;
+    gap: 24px;
   }
    .what-item {
   }
@@ -227,8 +230,11 @@ span.ingredient{
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-grey);
+  padding-bottom: 72px;
 }
-.ourteam-list, {
+.ourteam-list {
+  display: flex;
+  gap: 24px;
 }
 .ourteam-item {
   background-color: var(--color-white);
@@ -239,12 +245,14 @@ span.ingredient{
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-grey);
+  align-items: center;
 }
 .ourteam-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+ 
 }
 /*-----footer ------*/
 .footer {
