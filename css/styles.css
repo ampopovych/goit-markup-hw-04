@@ -245,7 +245,8 @@ span.ingredient{
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-grey);
-  align-items: center;
+  text-align: center;
+  padding-top: 32px;
 }
 .ourteam-text {
   font-size: 16px;
@@ -253,10 +254,17 @@ span.ingredient{
   letter-spacing: 0.02em;
   color: var(--color-slate);
  
+  padding-bottom: 32px;
+  text-align: center;
 }
 /*-----footer ------*/
 .footer {
   background-color: var(--color-grey);
+  height: 312px;
+}
+.container-footer{
+  padding-top: 100px;
+  padding-left: 156px;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -267,7 +275,7 @@ span.ingredient{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-}
+  }
 .link {
 }
 span.ingred {
@@ -282,6 +290,10 @@ span.ingred {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color:  var(--color-cloud);
+  width: 264px;
+height: 72px;
+left: 156px;
+padding-top: 16px;
 }
 /*!------Portfolio------*/
 .buttons {
@@ -295,7 +307,8 @@ span.ingred {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 12px 24px;
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 .btnportfolio {
 font-family: 'Roboto', sans-serif;
@@ -345,7 +358,10 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--color-grey);
 }
-.service-list, {
+.service-list {
+  gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .list {
 }
