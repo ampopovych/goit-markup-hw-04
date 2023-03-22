@@ -44,6 +44,10 @@ img{
  padding-right: 15px;
  margin: 0 auto;
 }
+section{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 /**---------HEADER-----*/
 .header:{
  box-sizing: border-box;
@@ -68,6 +72,7 @@ img{
  letter-spacing: 0.03em;
  text-transform: uppercase;
  color: var(--color-iris);
+ margin-right: 76px;
 }
 span.ingredient{
  font-family: 'Raleway';
@@ -78,6 +83,8 @@ span.ingredient{
 }
 .header-list{
  display: flex;
+ gap: 40px
+ ;
 }
 .header-link {
  font-weight: 500;
@@ -97,7 +104,8 @@ span.ingredient{
 }
 .header-addr-list{
  display: flex;
- margin-right: auto; 
+ margin-left: auto; 
+ gap: 40px;
 }
 .contact-link{
  font-style: normal;
@@ -117,7 +125,14 @@ span.ingredient{
     background-color: var(--color-grey);
     padding-top: 188 px;
     padding-bottom: 188 px;
-    }
+    height: 600px;
+    left: 0px;
+    top: 72px;
+  }
+  .container-sectone{
+    margin: 0 auto;
+    padding-top: 188px;
+  }
   .section-one-title {
     font-size: 56px;
     line-height: 1.07;
@@ -126,6 +141,7 @@ span.ingredient{
     color: var(--color-white);
     max-width: 496px;
     margin: 0 auto;
+    padding-bottom: 48px;
 
 }
   .btn {
@@ -141,6 +157,9 @@ span.ingredient{
     cursor: pointer;
     display:block;
     margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    
 }
   .btn:hover{
   color: var(--color-white);
@@ -153,6 +172,8 @@ span.ingredient{
   /**--------Section2 About-------*/
   .about {
   }
+  .about-container{
+   }
   .about-title {
     font-weight: 500;
     font-size: 20px;
@@ -160,14 +181,7 @@ span.ingredient{
     letter-spacing: 0.02em;
     color: var(--color-grey);
   }
-  .about-list, {
-  position: absolute;
-  width: 1128px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
-  display: flex;
-  justify-content: center;
+  .about-list {
   }
   .about-item {
   }
@@ -183,6 +197,7 @@ span.ingredient{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
+    max-width: 264px;
   }
   /**--------Section3 What-------*/
   .what {
@@ -194,8 +209,10 @@ span.ingredient{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-grey);
+    margin-bottom: 72px;
   }
-  .what-list, {
+  .what-list {
+    display: flex;
   }
    .what-item {
   }
@@ -263,6 +280,15 @@ span.ingred {
 }
 .buttons-title {
 }
+.btn-list{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+}
 .btnportfolio {
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
@@ -272,6 +298,8 @@ letter-spacing: 0.04em;
 color: var(--color-iris);
 cursor: pointer;
 background: var(--color-cloud);
+border-radius: 4px;
+padding: 12px 24px;
 }
 .btnportfolio:hover {
 font-family: 'Roboto';  
