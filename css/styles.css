@@ -52,12 +52,14 @@ section{
 .header:{
  box-sizing: border-box;
  background: #FFFFFF;
+ 
 }
 .container-header{
  padding-top: 24.5px;
  padding-bottom: 24.5px;
  display: flex;
  justify-content: center;
+ outline: border-bottom: 10px solid black;
 }
 .header-nav{
  display: flex;
