@@ -368,11 +368,14 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--color-grey);
+margin-bottom: 8px;
+margin-top: 32px;
 }
 .service-list {
   gap: 24px;
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 32px;
 }
 .list {
 }
