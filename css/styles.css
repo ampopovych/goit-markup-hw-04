@@ -125,12 +125,11 @@ span.ingredient{
   /**--------Section1------*/
   .section-one {
     background-color: var(--color-grey);
-    padding-top: 120 px;
-    padding-bottom: 120 px;
-   
+    padding-top: 188px;
+    padding-bottom: 188px; 
   }
   .container-sectone{
-   
+      
   }
   .section-one-title {
     font-size: 56px;
@@ -224,6 +223,7 @@ margin-right: auto;
     gap: 24px;
   }
    .what-item {
+    width: calc((100% - 30px)/3);
   }
   /*-----section 4 our team ------*/
   .ourteam {
@@ -247,6 +247,7 @@ margin-right: auto;
 }
 .ourteam-item {
   background-color: var(--color-white);
+  width: calc((100% - 30px)/4);
 }
 .ourteam-item-title {
   font-weight: 500;
