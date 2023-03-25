@@ -45,17 +45,20 @@ img{
  margin: 0 auto;
 }
 section{
-
+}
+a{
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 /**---------HEADER-----*/
 .header:{
  box-sizing: border-box;
  background: #FFFFFF;
-
 }
 .container-header{
  display: flex;
- outline: border-bottom: 10px solid black;
+ outline: 1px solid #E7E9FC;
 }
 .header-nav{
  display: flex;
@@ -71,9 +74,7 @@ section{
  text-transform: uppercase;
  color: var(--color-iris);
  margin-right: 76px;
- padding-top: 24px;
- padding-bottom: 24px;
-}
+ }
 span.ingredient{
  font-family: 'Raleway';
  font-weight: 800;
@@ -99,15 +100,10 @@ span.ingredient{
 .header-link:focus{
  color: var(--color-ocean);
 }
-.header-adress{
- font-style: normal;
-}
 .header-addr-list{
  display: flex;
  margin-left: auto; 
  gap: 40px;
- padding-top: 24px;
- padding-bottom: 24px;
 }
 .contact-link{
  font-style: normal;
@@ -128,8 +124,7 @@ span.ingredient{
     padding-top: 188px;
     padding-bottom: 188px; 
   }
-  .container-sectone{
-      
+  .container-sectone{  
   }
   .section-one-title {
     font-size: 56px;
@@ -158,7 +153,7 @@ span.ingredient{
     margin: 0 auto;
     min-width: 169px;
     height: 56px;
-    border: 0cap;
+    border-color: transparent;
 }
   .btn:hover{
   color: var(--color-white);
@@ -205,10 +200,10 @@ span.ingredient{
   }
   /**--------Section3 What-------*/
   .what {
-  }
-  .what-container{
     padding-bottom: 120px;
   }
+  .what-container{
+   }
   .what-title {
     font-size: 36px;
     line-height: 1.11;
@@ -228,10 +223,12 @@ span.ingredient{
   /*-----section 4 our team ------*/
   .ourteam {
     background-color: var(--color-cloud);
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   .ourteam-container{
-    padding-top: 120px;
-  }
+  
+   }
 .ourteam-title {
   font-size: 36px;
   line-height: 1.11;
@@ -239,15 +236,16 @@ span.ingredient{
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-grey);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .ourteam-list {
   display: flex;
   gap: 24px;
-}
+ }
 .ourteam-item {
   background-color: var(--color-white);
   width: calc((100% - 30px)/4);
+  padding-bottom: 32px;
 }
 .ourteam-item-title {
   font-weight: 500;
@@ -256,7 +254,7 @@ span.ingredient{
   letter-spacing: 0.02em;
   color: var(--color-grey);
   text-align: center;
-  padding-top: 32px;
+  margin-top: 32px;
   margin-bottom: 8px;
 }
 .ourteam-text {
@@ -264,8 +262,6 @@ span.ingredient{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
- 
-  padding-bottom: 32px;
   text-align: center;
 }
 /*-----footer ------*/
@@ -307,6 +303,10 @@ left: 156px;
 padding-top: 16px;
 }
 /*!------Portfolio------*/
+.service {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .buttons {
 }
 .buttons-title {
@@ -318,9 +318,8 @@ padding-top: 16px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
-}
+  margin-bottom: 72px;
+ }
 .btnportfolio {
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
@@ -332,7 +331,7 @@ cursor: pointer;
 background: var(--color-cloud);
 border-radius: 4px;
 padding: 12px 24px;
-border: 0cap;
+border-color: transparent;
 }
 .btnportfolio:hover {
 font-family: 'Roboto';  
@@ -361,8 +360,6 @@ text-align: center;
 letter-spacing: 0.04em;
 color: var(--color-white);
 }
-.service {
-}
 .service-title {
 font-weight: 500;
 font-size: 20px;
@@ -373,10 +370,9 @@ margin-bottom: 8px;
 margin-top: 32px;
 }
 .service-list {
-  gap: 24px;
+  gap: 48px;
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 32px;
 }
 .list {
 }
