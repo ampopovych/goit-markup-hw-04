@@ -273,6 +273,10 @@ span.ingredient{
   width: calc((100% - 30px)/4);
   padding-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 
+  0px 1px 6px rgba(46, 47, 66, 0.08), 
+  0px 1px 1px rgba(46, 47, 66, 0.16), 
+  0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .ourteam-item-title {
   font-weight: 500;
@@ -489,12 +493,14 @@ border-radius: 4px;
 padding: 12px 24px;
 border: 1px solid #E7E9FC;
 border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .btnportfolio:hover, btnportfolio:focus {
 /*--font-family: 'Roboto';  --*/
 background: var(--color-ocean);
 border-color: transparent;
 color: var(--color-white);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .service-title {
 font-weight: 500;
@@ -511,7 +517,10 @@ margin-bottom: 8px;
 }
 .list {
 }
-.service-item {
+.service-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+  0px 1px 1px rgba(46, 47, 66, 0.16), 
+  0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .service-text {
 font-size: 16px;
