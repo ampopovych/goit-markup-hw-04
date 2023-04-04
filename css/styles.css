@@ -125,16 +125,20 @@ span.ingredient{
   /**--------Section1------*/
   .section-one {
     background-color: var(--color-grey);
-    background-image:
-    /*-- linear-gradient (
+    background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7) 
-      )---*/
+      rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     block-size: cover;
     padding-top: 188px;
     padding-bottom: 188px; 
+    margin: o auto;
+    max-width: 1440px;
+
   }
   .container-sectone {  
   }
@@ -309,13 +313,13 @@ span.ingredient{
   background-color: #4D5AE5;
 }
 .ourteam-soc-link:hover{
-  background-color: #31D0AA;
+  background-color: #404BBF;;
 }
 .ourteam-soc-link:hover .ourteam-soc-item{
   fill: green;
 }
 .ourteam-soc-link:focus{
-  background-color: #31D0AA;
+  background-color: #404BBF;;
 }
 .ourteam-soc-link:focus .ourteam-soc-item{
   fill: green;
@@ -347,6 +351,12 @@ span.ingredient{
   align-items: center;
   width: calc((100% - 30px)/6);
   padding: 16px 32px 16px 32px;
+  fill: #8E8F99;
+}
+.customers-item:hover{
+  fill: #404BBF;
+}
+.customers-item-link {
 }
 .customers-icon {
   width: 100%;
@@ -354,6 +364,10 @@ span.ingredient{
   display: flex;
   align-items: center;
   justify-content: center;
+  fill:#8E8F99;
+}
+.customers-icon:hover{
+  fill: #404BBF;
 }
 /*-----footer ------*/
 .footer {
