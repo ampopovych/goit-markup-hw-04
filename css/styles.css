@@ -127,7 +127,7 @@ span.ingredient{
  color: var(--color-ocean);
 }
   /**--------Section1------*/
-  .section-one {
+.section-one {
     background-color: var(--color-grey);
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -137,13 +137,10 @@ span.ingredient{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    block-size: cover;
     padding-top: 188px;
     padding-bottom: 188px; 
-    margin: o auto;
     max-width: 1440px;
-
-  }
+}
   .container-sectone {  
   }
   .section-one-title {
