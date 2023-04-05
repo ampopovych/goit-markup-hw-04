@@ -391,6 +391,8 @@ span.ingredient{
   padding-bottom: 100px;
 }
 .container-footer{
+  display: flex;
+ 
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -420,9 +422,8 @@ color: var(--color-cloud);
   margin-top: 16px;
 }
 .footer-soc{
-  display: flex;
-  margin-left: 120px;
-}
+  
+  }
 .footer-soc-title{
 font-family: 'Roboto';
 font-style: normal;
