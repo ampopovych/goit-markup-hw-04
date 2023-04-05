@@ -421,7 +421,7 @@ color: var(--color-cloud);
 }
 .footer-soc{
   display: flex;
-  gap: 120px;
+  margin-left: 120px;
 }
 .footer-soc-title{
 font-family: 'Roboto';
