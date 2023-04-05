@@ -392,7 +392,7 @@ span.ingredient{
 }
 .container-footer{
   display: flex;
- 
+  gap: 120px;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
