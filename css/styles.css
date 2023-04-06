@@ -366,14 +366,14 @@ span.ingredient{
   align-items: center;
   padding: 16px 32px;
 }
-.customers-item:hover {
+/*--.customers-item:hover {
   border: 1px solid #404BBF;
   fill: #404BBF;
  }
 .customers-item:focus {
   border: 1px solid #404BBF;
   fill: #404BBF;
-}
+}--*/
 .customers-item-link:hover {
   border: 1px solid #404BBF;
   fill: #404BBF;
@@ -522,7 +522,6 @@ margin-bottom: 8px;
   flex-wrap: wrap;
 }
 .service-item:{
-display: block;
 }
 .service-item:hover {
 }
@@ -531,14 +530,20 @@ display: block;
 }
 
 .service-item-link:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-  0px 1px 1px rgba(46, 47, 66, 0.16), 
-  0px 2px 1px rgba(46, 47, 66, 0.08);
+  display: block;
+  background: #FFFFFF;
+/* CLOUD */
+
+border: 1px solid #F4F4FD;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .service-item-link:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-  0px 1px 1px rgba(46, 47, 66, 0.16), 
-  0px 2px 1px rgba(46, 47, 66, 0.08);
+  display: block;
+  background: #FFFFFF;
+/* CLOUD */
+
+border: 1px solid #F4F4FD;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .service-text {
 font-size: 16px;
