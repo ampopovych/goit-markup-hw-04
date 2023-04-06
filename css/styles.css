@@ -365,6 +365,7 @@ span.ingredient{
   justify-content: center;
   align-items: center;
   padding: 16px 32px;
+  fill: #8E8F99;
 }
 /*--.customers-item:hover {
   border: 1px solid #404BBF;
