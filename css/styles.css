@@ -382,16 +382,6 @@ span.ingredient{
   border: 1px solid #404BBF;
   fill: #404BBF;
 }
-
-.customers-icon {
-  
-}
-.customers-icon:hover{
-}
- 
-.customers-icon:focus{
-
-}
 /*-----footer ------*/
 .footer {
   background-color: var(--color-grey);
@@ -532,8 +522,8 @@ margin-bottom: 8px;
   flex-wrap: wrap;
 }
 .service-item:{
+display: block;
 }
-  display: block;
 .service-item:hover {
 }
 .service-item-link:{
