@@ -94,9 +94,13 @@ span.ingredient{
  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4,0,0.2,1);
 }
 .header-link:hover{
  color: var(--color-ocean);
+ 
 }
 .header-link:focus{
  color: var(--color-ocean);
@@ -516,6 +520,18 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--color-grey);
 margin-bottom: 8px;
+}
+.visually-hidden {
+  position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 .service-list {
   gap: 48px 24px;
